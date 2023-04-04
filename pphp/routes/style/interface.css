@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Nunito&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+:root{
+    --primary:#edf1d6;
+    --text:#40513b;
+    --teritiary:#9dc08b;
+    --fourth:#609966;
+    --placeholder:#FFFBEB;
+    --placeholder_2:#d9d9d977;
+    --primary_text:#20262E;
+    --hover:#B4E5BC;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-color: var(--primary);
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+
+body .abs_img{
+    z-index: 1;
+    position: fixed;
+    max-width: 100%;
+    width: 200.53px;
+    height: 301.5px;
+    left: 1596.2px;
+    top: 652px;
+}
+.green_nav{
+    background-color: var(--teritiary);
+    width: 402px;
+    height: 100vh;
+    /* position: fixed; */
+    display: flex;
+    align-items:normal;
+    justify-content: center;
+    flex-direction: column;
+}
+.green_nav .links{
+  height: 70vh;
+  padding: 30px;
+}
+
+
+.links  li{
+    height: 30px;
+    margin-bottom: 20px;
+    background-color:var(--primary);
+    height:35px;
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+
+}
+.links li:hover{
+    background-color: var(--hover);
+
+}
+.links li a{
+    font-family: 'Signika Negative', sans-serif;
+    line-height: 1cm;
+    margin-left: 20px;
+    color: #20262E;
+    width: 70%;
+}
+.links i{
+    width: 15%;
+}
+ .logo img{
+    position: absolute;
+    top: 12px;
+    left: 120px;
+    width: 120px;
+    height: 90px;
+    pointer-events: none;
+ 
+}
+.green_nav links{
+    height: 60%;
+}

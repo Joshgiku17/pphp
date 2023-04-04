@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Nunito&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+:root{
+    --primary:#edf1d6;
+    --text:#40513b;
+    --teritiary:#9dc08b;
+    --fourth:#609966;
+    --placeholder:#FFFBEB;
+    --placeholder_2:#d9d9d977;
+    --primary_text:#20262E;
+    --hover:#B4E5BC;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-color: var(--primary);
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+
+body .abs_img{
+    z-index: 1;
+    position: absolute;
+    max-width: 100%;
+    width: 200.53px;
+    height: 301.5px;
+    left: 1596.2px;
+    top: 692px;
+}
+.green_nav{
+    background-color: var(--teritiary);
+    width: 402px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items:normal;
+    justify-content: center;
+    flex-direction: column;
+}
+.green_nav .links{
+  height: 70vh;
+  padding: 30px;
+}
+
+
+.links  li{
+    height: 30px;
+    margin-bottom: 20px;
+    background-color:var(--primary);
+    height:35px;
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+
+}
+.links li:hover{
+    background-color: var(--hover);
+
+}
+.links li a{
+    font-family: 'Signika Negative', sans-serif;
+    line-height: 1cm;
+    margin-left: 20px;
+    color: #20262E;
+    width: 70%;
+}
+.links i{
+    width: 15%;
+}
+ .logo img{
+    position: absolute;
+    top: 12px;
+    left: 120px;
+    width: 120px;
+    height: 90px;
+    pointer-events: none;
+ 
+}
+.green_nav links{
+    height: 60%;
+}
+.center{
+    position: absolute;
+    /* height: 100vh; */
+    left: 631px;
+    top: 281px;
+}
+.avatar{
+    position: absolute;
+    width: 131px;
+    left: 270px;
+    top: -70px;
+    height: 131px;
+}
+.centered-div{
+    width: 657px;
+    height: 465px;
+    background: var(--teritiary);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centered-div .inside{
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 25vh;
+}
+.inside h2{
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 20px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.centered-div .sides{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sides a{
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    color: black;
+}
+.left button, .right button{
+    width: 220px;
+    height: 40px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    background: var(--primary);
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
+}
+.sides button:hover{
+    background-color: #B4E5BC;
+    font-weight: 500;
+}
+.sides button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sides i{
+    font-size: 18px;
+    width: 30%;
+}
+.sides button a{
+    width: 80%;
+    line-height: 1cm;
+
+}
+
+

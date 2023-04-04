@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Nunito&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+:root{
+--primary:#edf1d6;
+--text:#40513b;
+--teritiary:#9dc08b;
+--fourth:#609966;
+--placeholder:#FFFBEB;
+--placeholder_2:#d9d9d9;
+--primary_text:#20262E;
+--hover:#B4E5BC;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style-type: none;
+}
+/* body{
+    background-color: var(--primary);
+    display: flex;
+    width: 100%;
+    position: relative;
+} */
+
+.justify-center{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    
+}
+.margintop{
+    height: 17vh;
+}
+.new_div{
+    background-color:var(--placeholder_2);
+    width: 80%;
+    height: 335px;
+    padding: 20px;
+
+}
+.new_div h3{
+    font-family: 'Signika Negative',sans-serif;
+    margin-bottom: 10px;
+    display: flex;
+    background-color:var(--primary);
+    width: 19%;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+    margin-left: 40px;
+    /* text-align: center; */
+}
+
+.new_div .conta{
+    width: 14%;
+    margin-left:0px;
+    
+}
+.new_div .form1{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 80%;
+    margin-left: 40px;
+}
+.above{
+    display: flex;
+    justify-content: space-between;
+}
+.below{
+    display: flex;
+    justify-content: space-between;
+}
+.gru_1{
+    width: 20%;
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 30px; */
+}
+.gru_1 input, .gru_2 input{
+    outline: none;
+    border: none;
+    background-color: #fff;
+    height:3vh;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Nunito',sans-serif;
+}
+.gru_1 label, .gru_2 label{
+    margin-bottom: 5px;
+}
+.gru_2{
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.gru_2 input{
+}
+.form1 input[type=submit]{
+    background-color: var(--teritiary);
+    outline: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 0px;
+    height: 4vh;
+    width: 5vw;
+    cursor: pointer;
+}
